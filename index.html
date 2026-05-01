@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Economic Reset Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-copy">
+        <p class="eyebrow">2030s Prosperity Alliance case-study dashboard</p>
+        <h1>Economic Reset Dashboard</h1>
+        <p>
+          A working dashboard for the New Zealand and Sweden reform case studies,
+          built from the report's timelines, interviews, lessons, and chart exhibits.
+        </p>
+      </div>
+
+      <section class="control-panel" aria-label="Dashboard controls">
+        <div class="control-row">
+          <span class="control-label">Case study</span>
+          <div class="segmented" role="tablist" aria-label="Choose a case study">
+            <button class="segmented__button is-active" type="button" data-country="nz" role="tab" aria-selected="true">
+              New Zealand
+            </button>
+            <button class="segmented__button" type="button" data-country="sweden" role="tab" aria-selected="false">
+              Sweden
+            </button>
+          </div>
+        </div>
+        <div class="header-metrics" aria-label="Report contents">
+          <div>
+            <strong>2</strong>
+            <span>case studies</span>
+          </div>
+          <div>
+            <strong>5</strong>
+            <span>chart exhibits</span>
+          </div>
+          <div>
+            <strong>10</strong>
+            <span>country lessons</span>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <nav class="quick-nav" aria-label="Dashboard sections">
+      <a href="#overview">Overview</a>
+      <a href="#comparison">Comparison</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#lessons">Lessons</a>
+    </nav>
+
+    <main>
+      <section class="dashboard-band overview-band" id="overview">
+        <div class="section-heading">
+          <p class="eyebrow" id="country-kicker">New Zealand, 1984-1994</p>
+          <h2 id="country-title">New Zealand's economic reset</h2>
+          <p id="country-summary"></p>
+        </div>
+
+        <div class="overview-grid">
+          <article class="country-card">
+            <div class="country-meta">
+              <span id="country-period"></span>
+              <span id="country-government"></span>
+            </div>
+            <h3 id="country-question"></h3>
+            <p id="country-diagnosis"></p>
+            <div class="logic-strip" id="logic-strip" aria-label="Reset logic"></div>
+          </article>
+
+          <figure class="featured-chart">
+            <img id="featured-chart-image" src="assets/image1.png" alt="CPI inflation in New Zealand, 1975 to 1985">
+            <figcaption id="featured-chart-caption">CPI inflation in New Zealand, 1975-1985</figcaption>
+          </figure>
+        </div>
+
+        <div class="stat-grid" id="stat-grid" aria-label="Selected crisis and reform signals"></div>
+      </section>
+
+      <section class="dashboard-band" id="comparison">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Side-by-side readout</p>
+            <h2>How the two resets compare</h2>
+          </div>
+          <p>
+            New Zealand moved fastest through a control-economy breakdown. Sweden
+            made the most contested areas durable by building cross-party ownership.
+          </p>
+        </div>
+        <div class="comparison-grid" id="comparison-grid"></div>
+      </section>
+
+      <section class="dashboard-band timeline-band" id="timeline">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Sequence of change</p>
+            <h2 id="timeline-title">New Zealand reform timeline</h2>
+          </div>
+          <p id="timeline-intro"></p>
+        </div>
+        <div class="timeline-layout">
+          <div class="timeline-list" id="timeline-list" aria-label="Timeline events"></div>
+          <article class="timeline-detail" id="timeline-detail" aria-live="polite"></article>
+        </div>
+      </section>
+
+      <section class="dashboard-band evidence-band" id="evidence">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Chart evidence</p>
+            <h2>Report exhibits</h2>
+          </div>
+          <div class="segmented segmented--compact" aria-label="Filter chart exhibits">
+            <button class="segmented__button is-active" type="button" data-chart-filter="all">All</button>
+            <button class="segmented__button" type="button" data-chart-filter="nz">New Zealand</button>
+            <button class="segmented__button" type="button" data-chart-filter="sweden">Sweden</button>
+          </div>
+        </div>
+        <div class="chart-gallery" id="chart-gallery"></div>
+      </section>
+
+      <section class="dashboard-band lessons-band" id="lessons">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Political lessons</p>
+            <h2>What travels from the cases</h2>
+          </div>
+          <div class="segmented segmented--compact" aria-label="Choose lesson set">
+            <button class="segmented__button is-active" type="button" data-lesson-filter="shared">Shared</button>
+            <button class="segmented__button" type="button" data-lesson-filter="nz">New Zealand</button>
+            <button class="segmented__button" type="button" data-lesson-filter="sweden">Sweden</button>
+          </div>
+        </div>
+        <div class="lesson-list" id="lesson-list"></div>
+      </section>
+
+      <section class="dashboard-band quote-band" aria-label="Interview signals">
+        <div class="quote-panel">
+          <p class="eyebrow">Interview signal</p>
+          <blockquote id="country-quote"></blockquote>
+          <cite id="country-quote-source"></cite>
+        </div>
+        <div class="quote-panel quote-panel--quiet">
+          <p class="eyebrow">Durability mechanism</p>
+          <h2 id="durability-title"></h2>
+          <p id="durability-copy"></p>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="chart-modal" id="chart-modal" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" id="modal-close" aria-label="Close chart">x</button>
+      <img id="modal-image" src="assets/image1.png" alt="">
+      <h2 id="modal-title"></h2>
+      <p id="modal-caption"></p>
+    </dialog>
+
+    <footer class="site-footer">
+      <p>Built from "NZ &amp; Sweden Case Studies.docx". Chart sources are retained in the report exhibits.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
