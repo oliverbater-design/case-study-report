@@ -58,7 +58,7 @@ const countries = {
     lessonsIntro:
       "The New Zealand case is the clearest example of fast, comprehensive, values-framed reform being embedded in institutions that survived later governments.",
     voicesIntro:
-      "These short excerpts add more of the New Zealand interview texture to the page, especially around political courage, fairness, and institutional design.",
+      "Longer interview lessons from the report, showing how the New Zealand reformers understood crisis, political courage, sequencing, fairness, and institutional design.",
     timeline: [
       {
         year: "1984",
@@ -120,28 +120,51 @@ const countries = {
     quoteSource: "Roger Douglas, Minister of Finance, New Zealand, 1984 to 1988",
     quotes: [
       {
-        quote:
-          "We had this new crop of younger politicians. These were people prepared to make the right decision.",
-        source: "Roger Douglas, Minister of Finance, 1984 to 1988"
-      },
-      {
+        title: "Crisis delegitimised the old control regime",
         quote:
           "When we took over in 1984, the place was on its knees, and the economy was in freefall.",
+        lesson:
+          "Palmer's interview makes the political lesson very blunt: reform became possible because Muldoon's personal control of economic policy had lost legitimacy. The crisis was not just economic; it was a failure of governing method.",
         source: "Sir Geoffrey Palmer, Prime Minister, 1989 to 1990"
       },
       {
+        title: "Use opposition to prepare, not just oppose",
         quote:
-          "The state-owned enterprise reforms were crucial for us.",
+          "We had this new crop of younger politicians. These were people prepared to make the right decision, even if it cost them the election.",
+        lesson:
+          "Douglas's account stresses preparation before power. Labour had spent years watching Muldoon fail and developing a diagnosis, so when the crisis arrived ministers were not inventing a programme from scratch.",
+        source: "Roger Douglas, Minister of Finance, 1984 to 1988"
+      },
+      {
+        title: "Make fairness tangible, not rhetorical",
+        quote:
+          "The policy never polled higher than about 28 or 29 percent support before it was implemented. Just two weeks after we introduced it, because it was fair and had that compensation to the low income, it was sixty-five percent.",
+        lesson:
+          "The GST lesson is that unpopular reform can move after delivery if the design visibly protects those most exposed. Douglas did not simply argue fairness; he paired the new tax with compensation people could feel.",
+        source: "Roger Douglas, Minister of Finance, 1984 to 1988"
+      },
+      {
+        title: "Sequence reform around coalition trust",
+        quote:
+          "The state-owned enterprise reforms were crucial for us. There were very generous policies for redundancy for state employees who lost their jobs.",
+        lesson:
+          "Scott's interview points to the political sequencing inside Labour's first wave. The government restructured the state and corporatised public businesses, but avoided welfare cuts and used redundancy support to keep reforms from feeling like a betrayal of Labour's base.",
         source: "Graham Scott, Secretary of the New Zealand Treasury, 1986 to 1993"
       },
       {
+        title: "Speed matters because results lag",
         quote:
-          "Results take time, which is why speed at the outset was essential to success.",
+          "Results take time which is why speed at the outset was essential to success.",
+        lesson:
+          "Richardson's interview gives the hard-edged version of the New Zealand lesson. Because the political payoff from lower inflation, lower interest rates, and growth comes later, reformers need to move while the window is open.",
         source: "Ruth Richardson, Minister of Finance, 1990 to 1993"
       },
       {
+        title: "Turn discretion into accountable rules",
         quote:
-          "The 1989 Act pioneered a totally new relationship between government and central bank.",
+          "The government should make it public, in writing, what inflation rate it was directing the central bank to produce.",
+        lesson:
+          "Brash's interview explains why the Reserve Bank Act mattered politically as well as economically. It kept democratic responsibility for the target with ministers, but made delivery transparent and accountable rather than a short-term political instrument.",
         source: "Don Brash, Governor of the Reserve Bank, 1988 to 2002"
       }
     ],
@@ -497,44 +520,44 @@ const countries = {
 
 const homeLessons = [
   {
-    title: "Reform often begins when faith in the existing system collapses",
+    title: "Reform often only becomes possible once faith in the existing system collapses",
     text:
-      "New Zealand had a foreign-exchange crisis, Sweden had a banking and currency crisis, and Germany had years of visible unemployment failure. Reform became possible when the status quo stopped looking defensible."
+      "Governments can sustain poor performance for a long time, but reform becomes possible when the status quo stops looking defensible. New Zealand had the 1984 foreign-exchange crisis; Sweden had a banking and currency crisis; Germany had years of pressure over unemployment."
   },
   {
-    title: "Crises only help when ideas are ready",
+    title: "Crises open the window only if ideas are ready or rapidly assembled",
     text:
-      "New Zealand had Treasury and opposition work ready. Sweden had economists, ministry reformers, and the Lindbeck Commission. Germany rapidly assembled a programme through the Hartz Commission."
+      "A crisis creates fertile ground, not a programme. New Zealand had ideas developed in opposition and the Treasury. Sweden had a reform-minded policy ecosystem. Germany rapidly assembled a programme through the Hartz Commission."
   },
   {
     title: "Leaders must absorb short-term unpopularity",
     text:
-      "GST was unpopular before it worked, Sweden's consolidation was bruising, and Hartz cost Schroder office. The political wager is that reform can endure long enough for benefits to show."
+      "The right reforms are often unpopular before they work. New Zealand's GST had low support before delivery but became more popular once compensation worked. Germany shows the harder version: Hartz endured, but the government lost office."
   },
   {
-    title: "Difficult reforms need a national story",
+    title: "Difficult reforms land when embedded in a credible national story",
     text:
-      "Sweden framed reform as saving the social model. Germany framed Agenda 2010 as modernising the social market economy. New Zealand framed tax and subsidy reform around fairness."
+      "Reform is hard to argue for in isolation. Sweden argued reform was needed to preserve the Swedish model. Germany framed Agenda 2010 as modernising the social market economy before global competition did it on worse terms."
   },
   {
-    title: "Comprehensive reform can beat piecemeal caution",
+    title: "Comprehensive reform succeeds while piecemeal reform invites organised resistance",
     text:
-      "Moving across several fronts can diffuse opposition and force trade-offs, while single-issue sequencing gives each losing group time to become the whole story."
+      "Taking on one issue at a time can concentrate opposition. New Zealand moved across subsidies, tariffs, corporatisation, tax, and monetary reform together, so no single affected group became the whole story."
   },
   {
-    title: "Reform must transcend or reshape political divides",
+    title: "To endure, reform must transcend the political divide or reshape it",
     text:
-      "Sweden built cross-party ownership, New Zealand moved the policy settlement across both major parties, and Germany made the main opposition a de facto co-owner."
+      "One-party reform that is simply reversed does not drive long-term prosperity. Sweden built cross-party ownership. New Zealand shifted the Overton window. Germany made opposition from the right politically incoherent."
   },
   {
-    title: "Institutions make reform last",
+    title: "Sustained reform requires structures that support long-term decisions",
     text:
-      "Fiscal rules, independent central banks, expenditure ceilings, pension adjustment mechanisms, and restructured agencies turned reforms into operating systems."
+      "Rules-based frameworks and independent institutions helped each reset outlast its original politicians. The lesson is not to copy old fiscal rules, but to build structures that help governments take decisions whose benefits arrive later."
   },
   {
-    title: "Speed matters, but it has a price",
+    title: "Reform fails when it is approached too cautiously, one issue at a time",
     text:
-      "Fast reform can make reversal harder before backlash organises. It can also concentrate political pain, as Germany's SPD discovered."
+      "The case studies point against the instinct to move slowly and sequentially. Successful reformers often move fast, act comprehensively, and deliberately shape the political landscape."
   }
 ];
 
@@ -649,81 +672,81 @@ const lessons = {
     {
       title: "Sell the best programme, not the easiest one",
       text:
-        "The New Zealand lesson is that voters and affected sectors can be brought along when leaders defend reforms as necessary, fair, and demonstrably better than the status quo."
+        "The New Zealand lesson is that reformers should start from the policy programme they believe is needed, not from the lowest-risk option that polls well. Voters and affected sectors can be brought along when leaders keep making the case that reform is necessary, fair, and better than the failing status quo."
     },
     {
       title: "Ground the reset in values voters understand",
       text:
-        "GST, subsidy removal, and tax reform were defended as attacks on special privileges rather than technocratic abstractions."
+        "GST, subsidy removal, and tax reform were defended as fairness measures rather than technocratic abstractions. Douglas could tell Labour voters that the government was closing loopholes, removing special privileges, and compensating those most exposed to the change."
     },
     {
       title: "Move comprehensively and quickly",
       text:
-        "Douglas and Richardson treated the reform window as scarce political capital and used it across multiple policy fronts."
+        "Douglas and Richardson treated the reform window as scarce political capital and used it across multiple fronts at once. Moving quickly made it harder for one affected group to become the single symbol of the whole reform programme."
     },
     {
       title: "Build conviction inside governing parties",
       text:
-        "Reform came from organised teams inside Labour and National, not from a cautious party centre."
+        "Reform came from organised teams inside Labour and National, not from a cautious party centre. Those groups had done the intellectual work before taking office and were willing to spend political capital when the opportunity arrived."
     },
     {
       title: "Embed reform in lasting rules",
       text:
-        "The strongest legacy was the architecture: Reserve Bank independence, public-finance reform, and fiscal responsibility."
+        "The strongest legacy was not any single policy but the architecture built around it. Reserve Bank independence, public-finance reform, and fiscal responsibility made future governments explain the costs of departing from the new settlement."
     }
   ],
   sweden: [
     {
       title: "Build consensus before drafting law",
       text:
-        "Bank rescue and pension reform became durable because opponents were made co-owners before parliamentary combat began."
+        "Sweden made its most sensitive reforms more durable by building ownership before legislation reached open parliamentary conflict. Bank rescue and pension reform worked politically because potential opponents were turned into co-owners early."
     },
     {
       title: "Use prepared work when crisis creates urgency",
       text:
-        "The Lindbeck Commission moved fast because the underlying analysis had been developed for years."
+        "The Lindbeck Commission could move quickly because much of the underlying analysis had been developed for years by economists, think tanks, and officials. Crisis created urgency, but prepared ideas made rapid action possible."
     },
     {
       title: "Save what voters value",
       text:
-        "Fiscal tightening was framed as protecting the Swedish social model, backed by visible protection for education and childcare."
+        "Fiscal tightening was framed as a way to protect the Swedish social model, not as a retreat from it. That story was made credible by visible choices to protect education and childcare while making deeper cuts elsewhere."
     },
     {
       title: "Move big choices into institutions",
       text:
-        "Expenditure ceilings, the surplus target, Riksbank independence, and pension adjustment constrained future governments."
+        "Sweden made reversal harder by moving big choices out of annual political bargaining. Expenditure ceilings, the surplus target, Riksbank independence, and pension adjustment mechanisms constrained future governments without needing constant renegotiation."
     },
     {
       title: "Use real external constraints",
       text:
-        "Financial-market pressure, EU accession, and Maastricht criteria gave politicians credible reasons to make difficult choices."
+        "Financial-market pressure, EU accession, and Maastricht criteria gave politicians credible external reasons to make difficult choices. These constraints strengthened the argument that consolidation was not optional if Sweden wanted to remain economically independent."
     }
   ],
   germany: [
     {
       title: "Use a commission for political cover",
       text:
-        "The Hartz Commission let an SPD-led government present reforms as pragmatic and cross-institutional rather than simply ideological."
+        "The Hartz Commission gave an SPD-led government political cover it could not easily give itself. Because the commission included business and union figures, the reforms could be presented as pragmatic and cross-institutional rather than simply ideological."
     },
     {
       title: "Move before backlash can organise",
       text:
-        "The commission-to-legislation cycle ran in under eighteen months, making core reforms harder to stop once opposition peaked."
+        "The commission-to-legislation cycle ran in under eighteen months, which meant core reforms were already in law before the backlash reached full strength. The trade-off was severe: speed protected the reforms but intensified the political cost for Schroder and the SPD."
     },
     {
       title: "Change incentives system-wide",
       text:
-        "Germany changed claimant incentives, agency targets, municipal responsibilities, and employer routes into lower-cost work."
+        "Germany changed incentives across the whole labour-market system, not just for unemployed individuals. Claimant rules, agency targets, municipal responsibilities, and employer routes into lower-cost work all shifted in the same direction."
     },
     {
       title: "Make opposition politically incoherent",
       text:
-        "The CDU/CSU wanted reforms to go further, so opposing the package outright made little sense from the right."
+        "The CDU/CSU wanted reforms to go further, so opposing the package outright made little sense from the right. That meant the main opposition could contest details while still becoming a de facto co-owner of the reform settlement."
     },
     {
       title: "Build administrative path dependence",
       text:
-        "Once claimants, agencies, employers, and municipalities moved into the new system, reversal became harder than correction."
+        "The reforms became harder to reverse once claimants, agencies, employers, and municipalities had all moved into the new system. Later governments could correct politically exposed edges, such as low pay, without dismantling the underlying Hartz architecture."
     }
   ]
 };
@@ -866,6 +889,9 @@ function renderCase(countryKey) {
   setText("country-quote-source", country.quoteSource);
   setText("durability-title", country.durabilityTitle);
   setText("durability-copy", country.durabilityCopy);
+  const leadQuote = country.quotes[0] || { quote: country.quote, source: country.quoteSource };
+  setText("lead-quote", leadQuote.quote);
+  setText("lead-quote-source", leadQuote.source);
 
   const featuredImage = byId("featured-chart-image");
   if (featuredImage) {
@@ -1007,11 +1033,14 @@ function renderQuoteList(countryKey) {
   if (!container || !country) {
     return;
   }
+  container.classList.toggle("quote-grid--long", countryKey === "nz");
   container.innerHTML = country.quotes
     .map(
       (item) => `
         <article class="small-quote-card">
+          ${item.title ? `<h3>${item.title}</h3>` : ""}
           <blockquote>${item.quote}</blockquote>
+          ${item.lesson ? `<p>${item.lesson}</p>` : ""}
           <cite>${item.source}</cite>
         </article>
       `

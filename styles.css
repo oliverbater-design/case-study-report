@@ -758,6 +758,17 @@ main {
   padding: 24px;
 }
 
+.featured-quote-panel {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured-quote-panel blockquote {
+  font-size: 1.65rem;
+}
+
 .quote-panel--quiet {
   background: var(--surface-strong);
 }
@@ -793,8 +804,14 @@ cite {
   gap: 14px;
 }
 
+.quote-grid--long {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .small-quote-card {
   min-height: 210px;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   background: var(--surface);
   border: 1px solid var(--line);
@@ -802,12 +819,25 @@ cite {
   border-radius: 8px;
 }
 
+.small-quote-card h3 {
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
 .small-quote-card blockquote {
   margin-bottom: 14px;
   font-size: 1.05rem;
 }
 
+.small-quote-card p {
+  margin-bottom: 16px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .small-quote-card cite {
+  margin-top: auto;
   font-size: 0.88rem;
   line-height: 1.35;
 }
@@ -876,7 +906,8 @@ cite {
   .lesson-list,
   .home-lesson-grid,
   .case-card-grid,
-  .quote-grid {
+  .quote-grid,
+  .quote-grid--long {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -919,6 +950,7 @@ cite {
   .home-lesson-grid,
   .case-card-grid,
   .quote-grid,
+  .quote-grid--long,
   .comparison-row,
   .page-link-list {
     grid-template-columns: 1fr;
