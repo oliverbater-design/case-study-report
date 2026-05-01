@@ -1,12 +1,19 @@
-# Economic Reset Dashboard
+# Economic Reset Case Studies
 
-Static dashboard built from `NZ & Sweden Case Studies.docx`.
+Static website built from the New Zealand, Sweden, Germany, and cross-cutting case-study reports.
 
-Open `index.html` in a browser to view the report as an interactive dashboard with:
+Open `index.html` in a browser to view the lessons-led home page, then click into the country pages:
 
-- country tabs for New Zealand and Sweden
+- `case-new-zealand.html`
+- `case-sweden.html`
+- `case-germany.html`
+
+The site includes:
+
+- cross-cutting lessons from all three case studies
+- individual case-study dashboards
 - crisis and reform signal cards
 - side-by-side comparison rows
 - clickable reform timelines
-- chart exhibit gallery using the report's embedded images
-- shared and country-specific political lessons
+- chart exhibit galleries using the embedded report images
+- country-specific political lessons and interview quote cards

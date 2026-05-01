@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sweden Case Study</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-page="case" data-country="sweden">
+    <header class="app-header">
+      <div class="header-copy">
+        <p class="eyebrow" id="country-kicker"></p>
+        <h1 id="country-title"></h1>
+        <p id="country-summary"></p>
+      </div>
+
+      <section class="control-panel" aria-label="Case study navigation">
+        <div class="control-row">
+          <span class="control-label">Case studies</span>
+          <div class="page-link-list page-link-list--grid">
+            <a href="case-new-zealand.html">New Zealand</a>
+            <a class="is-current" href="case-sweden.html">Sweden</a>
+            <a href="case-germany.html">Germany</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <nav class="quick-nav site-nav" aria-label="Site navigation">
+      <a href="index.html">Home</a>
+      <a href="case-new-zealand.html">New Zealand</a>
+      <a class="is-current" href="case-sweden.html">Sweden</a>
+      <a href="case-germany.html">Germany</a>
+    </nav>
+
+    <main>
+      <section class="dashboard-band overview-band" id="overview">
+        <div class="overview-grid">
+          <article class="country-card">
+            <div class="country-meta">
+              <span id="country-period"></span>
+              <span id="country-government"></span>
+            </div>
+            <h2 id="country-question"></h2>
+            <p id="country-diagnosis"></p>
+            <div class="logic-strip" id="logic-strip" aria-label="Reset logic"></div>
+          </article>
+
+          <figure class="featured-chart">
+            <img id="featured-chart-image" src="assets/image1.png" alt="">
+            <figcaption id="featured-chart-caption"></figcaption>
+          </figure>
+        </div>
+
+        <div class="stat-grid" id="stat-grid" aria-label="Selected crisis and reform signals"></div>
+      </section>
+
+      <section class="dashboard-band timeline-band" id="timeline">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Sequence of change</p>
+            <h2 id="timeline-title"></h2>
+          </div>
+          <p id="timeline-intro"></p>
+        </div>
+        <div class="timeline-layout">
+          <div class="timeline-list" id="timeline-list" aria-label="Timeline events"></div>
+          <article class="timeline-detail" id="timeline-detail" aria-live="polite"></article>
+        </div>
+      </section>
+
+      <section class="dashboard-band evidence-band" id="evidence">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Chart evidence</p>
+            <h2 id="evidence-title"></h2>
+          </div>
+          <p id="evidence-intro"></p>
+        </div>
+        <div class="chart-gallery" id="chart-gallery"></div>
+      </section>
+
+      <section class="dashboard-band lessons-band" id="lessons">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Political lessons</p>
+            <h2 id="lessons-title"></h2>
+          </div>
+          <p id="lessons-intro"></p>
+        </div>
+        <div class="lesson-list" id="lesson-list"></div>
+      </section>
+
+      <section class="dashboard-band quote-band" aria-label="Interview signals">
+        <div class="quote-panel">
+          <p class="eyebrow">Interview signal</p>
+          <blockquote id="country-quote"></blockquote>
+          <cite id="country-quote-source"></cite>
+        </div>
+        <div class="quote-panel quote-panel--quiet">
+          <p class="eyebrow">Durability mechanism</p>
+          <h2 id="durability-title"></h2>
+          <p id="durability-copy"></p>
+        </div>
+      </section>
+
+      <section class="dashboard-band voices-band" id="voices">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Interview voices</p>
+            <h2 id="voices-title"></h2>
+          </div>
+          <p id="voices-intro"></p>
+        </div>
+        <div class="quote-grid" id="quote-list"></div>
+      </section>
+    </main>
+
+    <dialog class="chart-modal" id="chart-modal" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" id="modal-close" aria-label="Close chart">x</button>
+      <img id="modal-image" src="assets/image1.png" alt="">
+      <h2 id="modal-title"></h2>
+      <p id="modal-caption"></p>
+    </dialog>
+
+    <footer class="site-footer">
+      <p>Built from the New Zealand, Sweden, Germany, and cross-cutting case-study reports.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
