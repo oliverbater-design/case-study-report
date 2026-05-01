@@ -1,17 +1,20 @@
 :root {
-  --accent: #b33a31;
-  --accent-soft: #fff0ec;
+  --accent: #18212f;
+  --accent-secondary: #b7781f;
+  --accent-soft: #f3f0e8;
   --ink: #18212f;
   --muted: #5c6678;
   --paper: #f6f4ef;
   --surface: #ffffff;
   --surface-strong: #fdfbf7;
   --line: #d9dee7;
-  --blue: #2d82bd;
-  --red: #b33a31;
-  --green: #0f766e;
-  --gold: #b7781f;
-  --purple: #7441a6;
+  --nz-blue: #00247d;
+  --nz-red: #cc142b;
+  --sweden-blue: #006aa7;
+  --sweden-yellow: #fecc02;
+  --germany-black: #111111;
+  --germany-red: #dd0000;
+  --germany-gold: #ffce00;
   --shadow: 0 18px 50px rgba(23, 31, 46, 0.11);
 }
 
@@ -83,7 +86,7 @@ h3 {
 
 .eyebrow {
   margin-bottom: 10px;
-  color: var(--accent);
+  color: var(--accent-secondary);
   font-size: 0.78rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -166,7 +169,7 @@ h3 {
 
 .header-metrics strong {
   display: block;
-  color: var(--accent);
+  color: var(--accent-secondary);
   font-size: 1.7rem;
   line-height: 1;
 }
@@ -291,7 +294,7 @@ main {
   display: grid;
   grid-template-columns: minmax(0, 0.85fr) minmax(420px, 1.15fr);
   gap: 18px;
-  align-items: stretch;
+  align-items: start;
 }
 
 .country-card,
@@ -361,7 +364,7 @@ main {
   align-items: center;
   justify-content: center;
   color: var(--surface);
-  background: var(--accent);
+  background: var(--accent-secondary);
   border-radius: 50%;
   font-size: 0.9rem;
 }
@@ -455,15 +458,15 @@ main {
 }
 
 .case-link-card--nz {
-  border-top-color: var(--red);
+  border-top-color: var(--nz-blue);
 }
 
 .case-link-card--sweden {
-  border-top-color: var(--blue);
+  border-top-color: var(--sweden-blue);
 }
 
 .case-link-card--germany {
-  border-top-color: var(--green);
+  border-top-color: var(--germany-black);
 }
 
 .case-link-card:hover,
@@ -543,15 +546,16 @@ main {
 }
 
 .country-tag--nz {
-  background: var(--red);
+  background: var(--nz-blue);
 }
 
 .country-tag--sweden {
-  background: var(--blue);
+  color: var(--ink);
+  background: var(--sweden-yellow);
 }
 
 .country-tag--germany {
-  background: var(--green);
+  background: var(--germany-black);
 }
 
 .comparison-row p {
@@ -604,7 +608,7 @@ main {
   align-items: center;
   justify-content: center;
   color: var(--surface);
-  background: var(--accent);
+  background: var(--accent-secondary);
   border-radius: 8px;
   font-weight: 900;
 }
@@ -650,7 +654,7 @@ main {
 }
 
 .timeline-detail dt {
-  color: var(--accent);
+  color: var(--accent-secondary);
   font-size: 0.78rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -686,10 +690,20 @@ main {
 }
 
 .chart-card p {
-  min-height: 64px;
   margin-bottom: 14px;
   color: var(--muted);
   line-height: 1.45;
+}
+
+.chart-card .chart-story {
+  padding-top: 12px;
+  color: var(--ink);
+  border-top: 1px solid var(--line);
+  font-size: 0.93rem;
+}
+
+.chart-story strong {
+  color: var(--accent-secondary);
 }
 
 .chart-card button {
@@ -719,7 +733,7 @@ main {
   padding: 20px;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-top: 5px solid var(--accent);
+  border-top: 5px solid var(--accent-secondary);
   border-radius: 8px;
 }
 
@@ -731,7 +745,7 @@ main {
   justify-content: center;
   margin-bottom: 14px;
   color: var(--surface);
-  background: var(--accent);
+  background: var(--accent-secondary);
   border-radius: 50%;
   font-weight: 900;
 }
@@ -755,18 +769,19 @@ main {
 }
 
 .quote-panel {
-  padding: 24px;
+  padding: 22px;
 }
 
 .featured-quote-panel {
-  min-height: 100%;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  border-left: 5px solid var(--accent-secondary);
 }
 
 .featured-quote-panel blockquote {
-  font-size: 1.65rem;
+  font-size: 1.38rem;
 }
 
 .quote-panel--quiet {
@@ -777,8 +792,17 @@ blockquote {
   margin: 0 0 14px;
   color: var(--ink);
   font-size: 1.35rem;
+  font-style: italic;
   font-weight: 800;
   line-height: 1.35;
+}
+
+blockquote::before {
+  content: "\201C";
+}
+
+blockquote::after {
+  content: "\201D";
 }
 
 cite {
@@ -815,7 +839,7 @@ cite {
   padding: 20px;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-left: 5px solid var(--accent);
+  border-left: 5px solid var(--accent-secondary);
   border-radius: 8px;
 }
 

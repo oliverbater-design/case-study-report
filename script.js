@@ -22,8 +22,9 @@ const countries = {
       "Commercialise state activity",
       "Hardwire fiscal and monetary rules"
     ],
-    accent: "#b33a31",
-    accentSoft: "#fff0ec",
+    accent: "#00247d",
+    accentSecondary: "#cc142b",
+    accentSoft: "#eef3ff",
     featuredChart: {
       src: "assets/image1.png",
       alt: "CPI inflation in New Zealand, 1975 to 1985",
@@ -54,7 +55,7 @@ const countries = {
     timelineIntro:
       "The reset moved from emergency currency action into tax, state-sector, monetary, and fiscal architecture across two governments.",
     evidenceIntro:
-      "The New Zealand charts show why the old model cracked: high inflation, a rapidly rising debt load, and a crisis that made the control regime impossible to sustain.",
+      "Read alongside the timeline, the charts show why the old model cracked: high inflation, a rapidly rising debt load, and a crisis that made the control regime impossible to sustain.",
     lessonsIntro:
       "The New Zealand case is the clearest example of fast, comprehensive, values-framed reform being embedded in institutions that survived later governments.",
     voicesIntro:
@@ -195,7 +196,8 @@ const countries = {
       "Set expenditure ceilings",
       "Build cross-party pension rules"
     ],
-    accent: "#2d82bd",
+    accent: "#006aa7",
+    accentSecondary: "#006aa7",
     accentSoft: "#edf7ff",
     featuredChart: {
       src: "assets/image4.png",
@@ -227,7 +229,7 @@ const countries = {
     timelineIntro:
       "Sweden first stabilised the emergency, then converted the lessons of crisis into fiscal, monetary, wage, and pension rules.",
     evidenceIntro:
-      "The Sweden charts show the failed devaluation model, the credit and property boom, and the labour-market shock that gave reformers room to act.",
+      "Read alongside the timeline, the charts show the failed devaluation model, the credit and property boom, and the labour-market shock that gave reformers room to act.",
     lessonsIntro:
       "The Sweden case shows how cross-party ownership, external constraints, and protected public priorities can make deep consolidation more durable.",
     voicesIntro:
@@ -349,8 +351,9 @@ const countries = {
       "Change institutional incentives",
       "Make reversal administratively hard"
     ],
-    accent: "#0f766e",
-    accentSoft: "#eaf8f4",
+    accent: "#111111",
+    accentSecondary: "#dd0000",
+    accentSoft: "#fff4d6",
     featuredChart: {
       src: "assets/germany-unemployment.png",
       alt: "Germany unemployment rate from 1998 to 2013",
@@ -381,7 +384,7 @@ const countries = {
     timelineIntro:
       "Germany's reset ran through a rapid commission-to-legislation cycle, then survived a huge political backlash because the new architecture became hard to unwind.",
     evidenceIntro:
-      "The Germany charts show weak growth before reform, the labour-market peak and recovery, and the export and unit-labour-cost story that followed.",
+      "Read alongside the timeline, the charts show weak growth before reform, the labour-market peak and recovery, and the export and unit-labour-cost story that followed.",
     lessonsIntro:
       "The Germany case is about commission cover, speed, systemic incentives, and path dependence under conditions of fierce party and street-level opposition.",
     voicesIntro:
@@ -607,7 +610,9 @@ const charts = [
     src: "assets/image1.png",
     alt: "Line chart showing New Zealand CPI inflation from 1975 to 1985",
     caption:
-      "High and volatile inflation before the reset, with the 1982 wage and price freeze and 1984 devaluation marked."
+      "High and volatile inflation before the reset, with the 1982 wage and price freeze and 1984 devaluation marked.",
+    story:
+      "This is the pressure behind the opening crisis: price controls suppressed symptoms without restoring credibility."
   },
   {
     country: "nz",
@@ -615,7 +620,9 @@ const charts = [
     src: "assets/image2.png",
     alt: "Bar chart showing New Zealand government debt from 1975 to 1985",
     caption:
-      "Nominal government debt rose from NZ$4.2bn to NZ$21.8bn during the Muldoon era."
+      "Nominal government debt rose from NZ$4.2bn to NZ$21.8bn during the Muldoon era.",
+    story:
+      "The debt path explains why monetary reform alone was not enough; fiscal transparency had to become part of the settlement."
   },
   {
     country: "sweden",
@@ -623,7 +630,9 @@ const charts = [
     src: "assets/image3.png",
     alt: "Line chart showing Sweden CPI inflation from 1975 to 1992",
     caption:
-      "Repeated devaluations failed to solve the inflation problem before the krona was finally floated."
+      "Repeated devaluations failed to solve the inflation problem before the krona was finally floated.",
+    story:
+      "The chart shows why reformers could argue that the old devaluation playbook had exhausted itself."
   },
   {
     country: "sweden",
@@ -631,7 +640,9 @@ const charts = [
     src: "assets/image4.png",
     alt: "Line chart showing private credit and house prices in Sweden from 1980 to 1992",
     caption:
-      "Credit deregulation fed leverage and house-price growth before the banking crisis broke the cycle."
+      "Credit deregulation fed leverage and house-price growth before the banking crisis broke the cycle.",
+    story:
+      "This is the pre-crisis build-up behind the bank rescue: liberalised credit met weak risk discipline."
   },
   {
     country: "sweden",
@@ -639,7 +650,9 @@ const charts = [
     src: "assets/image5.png",
     alt: "Line chart showing Sweden unemployment from 1985 to 1995",
     caption:
-      "Unemployment rose from a low-inflation, full-employment norm into a severe early-1990s labour-market shock."
+      "Unemployment rose from a low-inflation, full-employment norm into a severe early-1990s labour-market shock.",
+    story:
+      "The labour-market shock explains why fiscal repair had to be paired with retraining and protected work-supporting services."
   },
   {
     country: "germany",
@@ -647,7 +660,9 @@ const charts = [
     src: "assets/germany-growth.png",
     alt: "Line chart showing Germany's real GDP growth against the EU-15 average from 1995 to 2005",
     caption:
-      "Germany underperformed the EU-15 during the years leading into the Hartz reform period."
+      "Germany underperformed the EU-15 during the years leading into the Hartz reform period.",
+    story:
+      "The growth gap is the backdrop to the 'sick man of Europe' story that gave Agenda 2010 its urgency."
   },
   {
     country: "germany",
@@ -655,7 +670,9 @@ const charts = [
     src: "assets/germany-unemployment.png",
     alt: "Line chart showing Germany's unemployment rate from 1998 to 2013",
     caption:
-      "Unemployment peaked after the reforms were enacted, then fell by 6.6 percentage points by 2013."
+      "Unemployment peaked after the reforms were enacted, then fell by 6.6 percentage points by 2013.",
+    story:
+      "This is the reform dividend that made later governments retain Hartz even after the SPD paid the political cost."
   },
   {
     country: "germany",
@@ -663,7 +680,9 @@ const charts = [
     src: "assets/germany-exports-costs.png",
     alt: "Two charts showing Germany's export share of GDP and unit labour costs against France",
     caption:
-      "Exports rose sharply while Germany's unit labour costs stayed far flatter than France's."
+      "Exports rose sharply while Germany's unit labour costs stayed far flatter than France's.",
+    story:
+      "The competitiveness story sits alongside Hartz: labour-market flexibility reinforced wider export-sector wage discipline."
   }
 ];
 
@@ -768,11 +787,13 @@ function setText(id, text) {
 function setTheme(countryKey) {
   const country = countries[countryKey];
   if (!country) {
-    document.documentElement.style.setProperty("--accent", "#0f766e");
-    document.documentElement.style.setProperty("--accent-soft", "#eaf8f4");
+    document.documentElement.style.setProperty("--accent", "#18212f");
+    document.documentElement.style.setProperty("--accent-secondary", "#b7781f");
+    document.documentElement.style.setProperty("--accent-soft", "#f3f0e8");
     return;
   }
   document.documentElement.style.setProperty("--accent", country.accent);
+  document.documentElement.style.setProperty("--accent-secondary", country.accentSecondary || country.accent);
   document.documentElement.style.setProperty("--accent-soft", country.accentSoft);
 }
 
@@ -785,8 +806,6 @@ function renderHome() {
   renderHomeLessons();
   renderCaseCards();
   renderHomeComparison();
-  renderCharts("all");
-  setupChartFilters();
 }
 
 function renderHomeLessons() {
@@ -997,6 +1016,7 @@ function renderCharts(filter = "all") {
             ${countryTag(chart.country)}
             <h3>${chart.title}</h3>
             <p>${chart.caption}</p>
+            <p class="chart-story"><strong>Story role:</strong> ${chart.story}</p>
             <button type="button" data-chart-index="${charts.indexOf(chart)}">Open chart</button>
           </div>
         </article>
@@ -1046,17 +1066,6 @@ function renderQuoteList(countryKey) {
       `
     )
     .join("");
-}
-
-function setupChartFilters() {
-  const buttons = document.querySelectorAll("[data-chart-filter]");
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      buttons.forEach((item) => item.classList.remove("is-active"));
-      button.classList.add("is-active");
-      renderCharts(button.dataset.chartFilter);
-    });
-  });
 }
 
 function openChart(index) {
