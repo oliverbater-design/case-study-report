@@ -22,9 +22,9 @@ const countries = {
       "Commercialise state activity",
       "Hardwire fiscal and monetary rules"
     ],
-    accent: "#00247d",
-    accentSecondary: "#cc142b",
-    accentSoft: "#eef3ff",
+    accent: "#111111",
+    accentSecondary: "#dd0000",
+    accentSoft: "#fff4d6",
     featuredChart: {
       src: "assets/image1.png",
       alt: "CPI inflation in New Zealand, 1975 to 1985",
@@ -351,9 +351,9 @@ const countries = {
       "Change institutional incentives",
       "Make reversal administratively hard"
     ],
-    accent: "#111111",
-    accentSecondary: "#dd0000",
-    accentSoft: "#fff4d6",
+    accent: "#00247d",
+    accentSecondary: "#cc142b",
+    accentSoft: "#eef3ff",
     featuredChart: {
       src: "assets/germany-unemployment.png",
       alt: "Germany unemployment rate from 1998 to 2013",

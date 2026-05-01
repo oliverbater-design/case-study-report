@@ -8,13 +8,13 @@
   --surface: #ffffff;
   --surface-strong: #fdfbf7;
   --line: #d9dee7;
-  --nz-blue: #00247d;
-  --nz-red: #cc142b;
+  --nz-black: #111111;
+  --nz-red: #dd0000;
+  --nz-gold: #ffce00;
   --sweden-blue: #006aa7;
   --sweden-yellow: #fecc02;
-  --germany-black: #111111;
-  --germany-red: #dd0000;
-  --germany-gold: #ffce00;
+  --germany-blue: #00247d;
+  --germany-red: #cc142b;
   --shadow: 0 18px 50px rgba(23, 31, 46, 0.11);
 }
 
@@ -458,7 +458,7 @@ main {
 }
 
 .case-link-card--nz {
-  border-top-color: var(--nz-blue);
+  border-top-color: var(--nz-black);
 }
 
 .case-link-card--sweden {
@@ -466,7 +466,7 @@ main {
 }
 
 .case-link-card--germany {
-  border-top-color: var(--germany-black);
+  border-top-color: var(--germany-blue);
 }
 
 .case-link-card:hover,
@@ -546,7 +546,7 @@ main {
 }
 
 .country-tag--nz {
-  background: var(--nz-blue);
+  background: var(--nz-black);
 }
 
 .country-tag--sweden {
@@ -555,7 +555,7 @@ main {
 }
 
 .country-tag--germany {
-  background: var(--germany-black);
+  background: var(--germany-blue);
 }
 
 .comparison-row p {
